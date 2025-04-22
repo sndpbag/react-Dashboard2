@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex items-center gap-2">
           <span>Powered by</span>
           <span className={`font-bold bg-gradient-to-r ${currentTheme.primary} bg-clip-text text-transparent`}>
-            Glass UI
+            Sndp Glass UI
           </span>
         </div>
       </div>
