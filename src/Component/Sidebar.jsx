@@ -52,7 +52,7 @@ const Sidebar = ({ mobile = false }) => {
               <User className="w-6 h-6" />
             </div>
             <div>
-              <h2 className="font-medium">John Doe</h2>
+              <h2 className="font-medium">sndp bag</h2>
               <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>Administrator</p>
             </div>
           </div>
@@ -105,7 +105,7 @@ const Sidebar = ({ mobile = false }) => {
         </nav>
       </div>
       
-      <div className="absolute bottom-20 left-0 right-0 px-6">
+      {/* <div className="absolute bottom-20 left-0 right-0 px-6">
         <button 
           className={`flex items-center gap-2 w-full px-4 py-2 rounded-lg
           ${darkMode
@@ -116,7 +116,7 @@ const Sidebar = ({ mobile = false }) => {
           <LogOut className="w-5 h-5" />
           <span>Logout</span>
         </button>
-      </div>
+      </div> */}
     </aside>
   );
 };

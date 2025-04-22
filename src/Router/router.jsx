@@ -9,13 +9,13 @@ import Dashboard from "../ItemCompoent/Dashboard";
     {
       path: "/",
       element: <DashboardLayout></DashboardLayout>,
-    //   children: [
-    //     {
-    //       index: true,
-    //       element: <Dashboard />,
-    //     }
+      children: [
+        {
+          index: true,
+          element: <Dashboard />,
+        }
       
-    //   ]
+      ]
     },
   ]);
 
