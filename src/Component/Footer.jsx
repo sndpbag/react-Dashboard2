@@ -1,4 +1,5 @@
-import { useTheme } from './ThemeContext';
+ 
+import { useTheme } from '../Dashboard/Context/ThemeContext';
 
 const Footer = () => {
   const { darkMode, currentTheme } = useTheme();

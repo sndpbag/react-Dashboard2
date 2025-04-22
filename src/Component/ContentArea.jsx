@@ -1,6 +1,7 @@
 // ContentArea.jsx
 import { Outlet } from 'react-router-dom';
-import { useTheme } from './ThemeContext';
+ 
+import { useTheme } from '../Dashboard/Context/ThemeContext';
 
 const ContentArea = () => {
   const { darkMode, currentTheme } = useTheme();
